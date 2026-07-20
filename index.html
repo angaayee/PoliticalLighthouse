@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Political Lighthouse — Political Consultancy</title>
+<link rel="stylesheet" href="./css/style.css"/>
+<script src="https://kit.fontawesome.com/515fd33956.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+  <nav class="wrap">
+    <div class="brand">
+    <img src="./images/logo.png" width="100px" height="100px" style="border-radius: 50%;" />
+      Political Lighthouse
+    </div>
+    <div class="navlinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#approach">Approach</a>
+      <a href="#team">Team</a>
+      <!-- <a href="#careers">Careers</a> -->
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="nav-right">
+      <a href="#contact" class="btn-primary con" style="padding:12px 24px;font-size:14px;">Let's <i class="fa-solid fa-handshake"></i></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </nav>
+  <div class="navlinks" id="mobileNav" style="display:none;flex-direction:column;gap:2px;padding:10px 40px 20px;background:#fff;"></div>
+</header>
+
+<main>
+
+  <!-- ================= HOME / HERO ================= -->
+  <section id="home" class="hero">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="wrap">
+      <div>
+        <div class="hero-tag"><span class="dot"></span>Trusted by campaigns across India</div>
+        <h1>Strategic Political Consulting That <span>Wins Elections.</span></h1>
+        <p class="lede">Political Lighthouse empowers political leaders, parties, and candidates with data-driven campaign strategies, digital outreach, voter engagement, and election management solutions. Building strong campaigns. Creating lasting impact.</p>
+        <div class="hero-ctas">
+          <a href="#contact" class="btn-primary">Get Started</a>
+          <a href="#services" class="btn-outline-ink">Learn More</a>
+        </div>
+        <!-- <div class="hero-stats">
+          <div><div class="num">63+</div><div class="cap">Campaigns advised</div></div>
+          <div><div class="num">78%</div><div class="cap">Client win rate</div></div>
+          <div><div class="num">14</div><div class="cap">States on ground</div></div>
+        </div> -->
+      </div>
+      <div class="hero-art">
+        <div class="hero-art-card"><img src="./images/hero.png"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section id="about">
+    <div class="wrap about-grid">
+      <div class="about-art">
+       
+        <!-- <div class="cap"> -->
+          <img src="./images/about.png" style="border-radius: 10%;"/>
+      </div>
+      <div>
+        <div class="eyebrow">About the firm</div>
+        <h2>Transforming political vision into electoral success.</h2>
+        <p>Political Lighthouse is a political consultancy built by former field directors, pollsters, and digital strategists who were tired of watching good candidates lose with bad messaging. We help political leaders, parties, elected representatives, and aspiring candidates achieve measurable success.</p>
+        <p>From campaign planning to voter outreach, digital strategy, constituency management, and public engagement, we've managed statewide election campaigns, coordinated with Ministers, MLAs, MPs, and District Secretaries, and run the social media and digital operations behind races that came from behind to win.</p>
+        <ul class="check-list">
+          <li><span class="ck">✓</span>Senior strategists on every account, not junior managers</li>
+          <li><span class="ck">✓</span>Research-backed messaging tested before it goes public</li>
+          <li><span class="ck">✓</span>Full-cycle support from research to election night</li>
+        </ul>
+        <!-- <div style="margin-top:24px;"><a href="#contact" class="btn-primary">Start a campaign audit →</a></div> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SERVICES ================= -->
+  <!-- <section id="services" class="bg-soft">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow" style="justify-content:center;">What we do</div>
+        <h2>Full-cycle campaign services</h2>
+        <p>From the first message test to the last precinct walked, we build and run the strategy end to end.</p>
+      </div>
+      <div class="svc-grid">
+        <div class="svc-card"><div class="svc-icon"><i class="fa-solid fa-landmark-dome"></i></div><h3>Political Consulting</h3><p>Strategic political solutions through research, campaign planning, and data-driven decision making.</p></div>
+        <div class="svc-card"><div class="svc-icon"><i class="fa-solid fa-bullhorn"></i></div><h3>Election Campaign Management</h3><p>Planning and executing impactful election campaigns with effective communication and digital outreach.</p></div>
+        <div class="svc-card"><div class="svc-icon"><i class="fa-solid fa-chart-line"></i></div><h3>Digital Marketing</h3><p>Targeted digital marketing campaigns to increase reach, engagement, and brand visibility.</p></div>
+        <div class="svc-card"><div class="svc-icon"><i class="fa-solid fa-book-open"></i></div><h3>Political Research &amp; Analysis</h3><p>Analyzing political trends, voter behavior, and public sentiment to support winning strategies.</p></div>
+        <div class="svc-card"><div class="svc-icon"><i class="fa-solid fa-hashtag"></i></div><h3>Social Media Management</h3><p>Managing platforms with engaging content, audience growth, and performance optimization.</p></div>
+        <div class="svc-card"><div class="svc-icon"><i class="fa-brands fa-buffer"></i></div><h3>Content Strategy &amp; Writing</h3><p>Compelling content for campaigns, social media, and digital platforms that maximizes engagement.</p></div>
+        <div class="svc-card"><div class="svc-icon"><i class="fa-solid fa-shuffle"></i></div><h3>Political Branding</h3><p>Building a strong political identity through professional branding, communication strategy, and public image development.</p></div>
+        <div class="svc-card"><div class="svc-icon"><i class="fa-solid fa-bullseye"></i></div><h3>Media &amp; Public Relations</h3><p>Press management, media coordination, speech planning, interview preparation, and public communication.</p></div>
+        <div class="svc-card"><div class="svc-icon"><i class="fa-solid fa-compass"></i></div><h3>Ground Campaign Management</h3><p>Volunteer management, booth coordination, field operations, campaign logistics, and event execution.</p></div>
+        <div class="svc-card"><div class="svc-icon"><i class="fa-solid fa-check-to-slot"></i></div><h3>Election War Room</h3><p>Real-time campaign monitoring, performance dashboards, issue tracking, and strategic decision support.</p></div>
+        <div class="svc-card"><div class="svc-icon"><i class="fa-solid fa-landmark"></i></div><h3>Constituency Management</h3><p>Citizen grievance systems, outreach programs, feedback collection, and representative office management.</p></div>
+      </div>
+    </div>
+  </section> -->
+   <section id="services" class="bg-soft">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow" style="justify-content:center;">What we do</div>
+        <h2>Our Core Services</h2>
+        <p>From the first message test to the last precinct walked, we build and run the strategy end to end.</p>
+      </div>
+      <div class="svc-grid">
+        <div class="svc-card"><div class="svc-icon"><i class="fa-solid fa-chess-knight"></i></div><h3>Political Strategy</h3><p>Winning strategies built on ground realities and political intelligence.</p></div>
+        <div class="svc-card"><div class="svc-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div><h3>Research &amp; Intelligence</h3><p>Voter research, opinion polls, data analytics &amp; political intelligence reports.</p></div>
+        <div class="svc-card"><div class="svc-icon"><i class="fa-solid fa-bullhorn"></i></div><h3>Campaign Management</h3><p>End-to-end campaign planning, execution and election management.</p></div>
+        <div class="svc-card"><div class="svc-icon"><i class="fa-solid fa-hashtag"></i></div><h3>Digital &amp; Social Media</h3><p>Creative content, social media strategy, reputation management &amp; digital campaigns.</p></div>
+        <div class="svc-card"><div class="svc-icon"><i class="fa-solid fa-user-tie"></i></div><h3>Leadership Branding</h3><p>Personal branding, public image building, speech writing &amp; media training.</p></div>
+        <div class="svc-card"><div class="svc-icon"><i class="fa-solid fa-microphone-lines"></i></div><h3>Public Relations &amp; Media Management</h3><p>Media relations, press releases, interviews &amp; crisis communication.</p></div>
+        <div class="svc-card"><div class="svc-icon"><i class="fa-solid fa-landmark"></i></div><h3>Governance &amp; Public Policy</h3><p>Policy research, governance advisory, development communication &amp; citizen engagement.</p></div>
+        <div class="svc-card"><div class="svc-icon"><i class="fa-solid fa-people-group"></i></div><h3>Grassroots Organization</h3><p>Volunteer management, booth management, community outreach &amp; door-to-door campaigns.</p></div>
+        <div class="svc-card"><div class="svc-icon"><i class="fa-solid fa-robot"></i></div><h3>Data Analytics &amp; AI Solutions</h3><p>Data dashboards, voter analytics, AI insights &amp; performance tracking.</p></div>
+        <div class="svc-card"><div class="svc-icon"><i class="fa-solid fa-chalkboard-user"></i></div><h3>Training &amp; Development</h3><p>Training programs for volunteers, leaders &amp; campaign teams.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= WHY CHOOSE US ================= -->
+  <section id="why">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow" style="justify-content:center;">Why Political Lighthouse</div>
+        <h2>Built for campaigns that need to win.</h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-card"><div class="why-icon"><i class="fa-solid fa-star"></i></div><h3>Senior strategists</h3><p>Every account gets experienced hands, not junior staff reading from a template.</p></div>
+        <div class="why-card"><div class="why-icon"><i class="fa-solid fa-database"></i></div><h3>Data-driven</h3><p>Every message is tested against real polling before it ever reaches voters.</p></div>
+        <div class="why-card"><div class="why-icon"><i class="fa-solid fa-handshake"></i></div><h3>Confidential</h3><p>Your strategy, polling, and internal data stay inside a tight, trusted circle.</p></div>
+        <div class="why-card"><div class="why-icon"><i class="fa-solid fa-arrows-rotate"></i></div><h3>Full-cycle support</h3><p>We stay with you from the first research memo through election night.</p></div>
+        <div class="why-card"><div class="why-icon"><i class="fa-solid fa-computer"></i></div><h3>Modern technology</h3><p>Campaign dashboards, voter data tools, and analytics built for the current cycle.</p></div>
+        <div class="why-card"><div class="why-icon"><i class="fa-brands fa-digital-ocean"></i></div><h3>Digital-first</h3><p>Every strategy is built to move on the platforms where voters actually spend time.</p></div>
+        <div class="why-card"><div class="why-icon"><i class="fa-solid fa-sliders"></i></div><h3>Customized solutions</h3><p>No two constituencies are the same, so no two campaign plans are either.</p></div>
+        <div class="why-card"><div class="why-icon"><i class="fa-solid fa-route"></i></div><h3>Proven planning</h3><p>Strategic groundwork that's been tested and refined across real election cycles.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= OUR APPROACH ================= -->
+  <section id="approach" class="bg-soft">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow" style="justify-content:center;">How we work</div>
+        <h2>Our approach</h2>
+        <p>A disciplined process that takes a campaign from first conversation to election night.</p>
+      </div>
+      <div class="approach-grid">
+        <div class="approach-card"><div class="approach-num">1</div><h3>Understand</h3><p>We study your political objectives, constituency dynamics, and campaign goals.</p></div>
+        <div class="approach-card"><div class="approach-num">2</div><h3>Analyze</h3><p>Our team performs detailed research, voter analysis, and competitive assessment.</p></div>
+        <div class="approach-card"><div class="approach-num">3</div><h3>Strategize</h3><p>We create a customized campaign plan tailored to your political landscape.</p></div>
+        <div class="approach-card"><div class="approach-num">4</div><h3>Execute</h3><p>Implement digital campaigns, field activities, branding, and outreach programs.</p></div>
+        <div class="approach-card"><div class="approach-num">5</div><h3>Monitor</h3><p>Continuously evaluate campaign performance using analytics and real-time reporting.</p></div>
+        <div class="approach-card"><div class="approach-num">6</div><h3>Optimize</h3><p>Refine strategies based on public feedback and campaign insights.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= INDUSTRIES / WHO WE SERVE ================= -->
+  <section id="industries">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow" style="justify-content:center;">Who we serve</div>
+        <h2>Industries we serve</h2>
+        <p>We work with leaders and organizations across every level of the political landscape.</p>
+      </div>
+      <div class="industries-wrap">
+        <span class="industry-pill">Political Parties</span>
+        <span class="industry-pill">Election Candidates</span>
+        <span class="industry-pill">Members of Parliament</span>
+        <span class="industry-pill">Members of Legislative Assembly</span>
+        <span class="industry-pill">Local Body Representatives</span>
+        <span class="industry-pill">Political Organizations</span>
+        <span class="industry-pill">Public Leaders</span>
+        <span class="industry-pill">Government Representatives</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MISSION & VISION ================= -->
+  <section id="mission-vision" class="bg-soft">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow" style="justify-content:center;">What drives us</div>
+        <h2>Mission &amp; Vision</h2>
+      </div>
+      <div class="mv-grid">
+        <div class="mv-card">
+          <div class="mv-icon"><i class="fa-solid fa-signal"></i></div>
+          <h3>Mission</h3>
+          <p>To strengthen democratic participation by delivering innovative, ethical, and technology-driven political consulting solutions that help leaders effectively engage with citizens.</p>
+        </div>
+        <div class="mv-card">
+          <div class="mv-icon"><i class="fa-regular fa-compass"></i></div>
+          <h3>Vision</h3>
+          <p>To become a trusted political consulting partner recognized for strategic excellence, impactful campaigns, and sustainable political leadership development.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= STATISTICS ================= -->
+  <section id="stats">
+    <div class="wrap">
+      <div class="stats-grid">
+        <!-- <div class="stat-card"><div class="stat-num">100+</div><div class="stat-label">Strategic Consultations</div></div> -->
+        <!-- <div class="stat-card"><div class="stat-num">50+</div><div class="stat-label">Political Campaigns Supported</div></div> -->
+        <div class="stat-card"><div class="stat-num">6+</div><div class="stat-label">Years of Combined Experience</div></div>
+        <div class="stat-card"><div class="stat-num">24/7</div><div class="stat-label">Strategic Support</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TEAM ================= -->
+  <section id="team" class="bg-soft">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow" style="justify-content:center;">Who we are</div>
+        <h2>Meet the team.</h2>
+        <p>Strategists, researchers, and storytellers who've run campaigns from city council to statewide office.</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-photo"><img src="./images/lk.jpg"/></div>
+          <div class="team-info"><h3>Lakshmanakumar M</h3><div class="team-role">Founder &amp; Political Strategist</div><p>5+ years leading statewide campaign strategy, digital operations, and stakeholder coordination.</p></div>
+        </div>
+        <div class="team-card">
+          <div class="team-photo"><img src="./images/rkp.png"/></div>
+          <div class="team-info"><h3>Poonilavu R K</h3><div class="team-role">CEO &amp; Co-Founder</div><p>Provides technical support for campaign platforms, digital tools, websites, and secure communication infrastructure.</p></div>
+        </div>
+        <!-- <div class="team-card">
+          <div class="team-photo"><span class="initials">SK</span></div>
+          <div class="team-info"><h3>Suresh K</h3><div class="team-role">Digital &amp; Content Lead</div><p>Builds the message and creative behind digital ads, social content, and campaign outreach.</p></div>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TESTIMONIALS ================= -->
+  <!-- <section id="testimonials">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow" style="justify-content:center;">Results</div>
+        <h2>What clients say.</h2>
+      </div>
+      <div class="testi-grid">
+        <div class="testi-card">
+          <p class="testi-quote">"Political Lighthouse rebuilt our messaging two months out and it changed the entire trajectory of the race."</p>
+          <div class="testi-person"><div class="testi-avatar">RP</div><div><div class="testi-name">Candidate, District Council</div><div class="testi-role">Placeholder testimonial</div></div></div>
+        </div>
+        <div class="testi-card">
+          <p class="testi-quote">"Their field operation found voters our internal team had completely missed."</p>
+          <div class="testi-person"><div class="testi-avatar">MS</div><div><div class="testi-name">Campaign Manager</div><div class="testi-role">Placeholder testimonial</div></div></div>
+        </div>
+        <div class="testi-card">
+          <p class="testi-quote">"Calm, sharp, and honest even when the numbers weren't what we wanted to hear."</p>
+          <div class="testi-person"><div class="testi-avatar">TK</div><div><div class="testi-name">Party Coordinator</div><div class="testi-role">Placeholder testimonial</div></div></div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- ================= CAREERS ================= -->
+  <!-- <section id="careers" class="bg-soft">
+    <div class="wrap">
+      <div class="careers-head">
+        <div class="section-head left" style="margin-bottom:0;">
+          <div class="eyebrow">Join us</div>
+          <h2>Open positions.</h2>
+          <p>We hire researchers, organizers, and strategists who want to work on real campaigns.</p>
+        </div>
+        <button class="admin-link" id="showLoginBtn">Admin: post a career</button>
+      </div>
+
+      <div id="careerList"></div>
+      <div class="careers-empty" id="careerEmpty" style="display:none;">No open positions right now — check back soon.</div>
+
+      <div class="login-box" id="loginBox">
+        <label for="adminPass">Admin password</label>
+        <input type="password" id="adminPass" placeholder="Enter admin password">
+        <button class="btn-outline-ink" id="loginSubmit">Log in</button>
+        <div class="login-msg" id="loginMsg"></div>
+      </div>
+
+      <div class="admin-panel" id="adminPanel">
+        <h3>Post a new opening <span class="badge">Admin</span></h3>
+        <div class="admin-form-row">
+          <div class="field"><label>Job title</label><input type="text" id="jobTitle" placeholder="e.g. Field Organizer"></div>
+          <div class="field"><label>Location</label><input type="text" id="jobLocation" placeholder="e.g. Madurai, Tamil Nadu"></div>
+        </div>
+        <div class="admin-form-row">
+          <div class="field"><label>Employment type</label>
+            <select id="jobType"><option>Full-time</option><option>Part-time</option><option>Contract</option><option>Internship</option></select>
+          </div>
+          <div class="field"><label>Apply email or link</label><input type="text" id="jobApply" placeholder="careers@politicallighthouse.com"></div>
+        </div>
+        <div class="field"><label>Description</label><textarea id="jobDesc" placeholder="What the role involves..."></textarea></div>
+        <div class="admin-actions">
+          <button class="btn-primary" id="postJobBtn" type="button">Post opening</button>
+          <button class="admin-logout" id="logoutBtn">Log out of admin</button>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- ================= NEWSLETTER / CTA ================= -->
+  <!-- <section id="cta">
+    <div class="wrap">
+      <div class="cta-bar">
+        <div>
+          <h2>Ready to build a winning campaign?</h2>
+          <p>Get campaign strategy insights straight to your inbox — no spam, just what moves numbers.</p>
+        </div>
+        <form class="cta-form" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Subscribed ✓';">
+          <input type="email" placeholder="you@campaign.com" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- ================= CONTACT ================= -->
+  <section id="contact">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow" style="justify-content:center;">Get in touch</div>
+        <h2>Let's work together.</h2>
+        <p>Tell us about the seat, the timeline, and the opponent. We'll come back with a candid read on where the race stands and how we'd run it.</p>
+      </div>
+      <div class="contact-flex">
+        <div>
+          <div class="contact-links">
+            <a href="mailto:hratpoliticallighthouse@gmail.com"><span class="k">Email</span>hratpoliticallighthouse@gmail.com <i class="fa-solid fa-paper-plane"></i></a>
+            <!-- <a href="tel:+15551234567"><span class="k">Phone</span>+1 (555) 123-4567</a> -->
+            <!-- <a href="#"><span class="k">Office</span>412 Capitol Row, Suite 700</a> -->
+          </div>
+           <a href="https://wa.me/+919047286179?text=Hi%20Political%20Lighthouse%2C%20I%27d%20like%20to%20talk%20about%20a%20campaign." class="chat-btn" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> Let's Chat</a>
+        </div>
+        <form id="leadForm">
+          <div class="form-row">
+            <div class="field"><label for="fname">Full name</label><input id="fname" name="fname" type="text" placeholder="Jordan Alvarez" required></div>
+            <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="you@campaign.com" required></div>
+          </div>
+          <div class="form-row">
+            <div class="field"><label for="office">Office / initiative sought</label><input id="office" name="office" type="text" placeholder="e.g. State Senate, District 12"></div>
+            <div class="field"><label for="timeline">Election date</label><input id="timeline" name="timeline" type="date"></div>
+          </div>
+          <div class="field full">
+            <label for="service">Primary interest</label>
+           <select id="service" name="service">
+  <option>Political Strategy</option>
+  <option>Research &amp; Intelligence</option>
+  <option>Campaign Management</option>
+  <option>Digital &amp; Social Media</option>
+  <option>Leadership Branding</option>
+  <option>Public Relations &amp; Media Management</option>
+  <option>Governance &amp; Public Policy</option>
+  <option>Grassroots Organization</option>
+  <option>Data Analytics &amp; AI Solutions</option>
+  <option>Training &amp; Development</option>
+  <option>Full-service campaign</option>
+</select>
+          </div>
+          <div class="field full"><label for="message">Tell us about the race</label><textarea id="message" name="message" placeholder="Seat, opponent, current polling, what keeps you up at night..."></textarea></div>
+          <button type="submit" class="submit-btn">Request a strategy call</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+ <img src="./images/logo.png" width="100px" height="100px" style="border-radius: 50%;" />          Political Lighthouse
+        </div>
+        <p>A political consultancy building the message, coalition, and ground game behind campaigns that win.</p>
+        <div class="footer-tagline">Empowering Leaders. Engaging Citizens. Delivering Results.</div>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/company/political-lighthouse/posts/?feedView=all" target="_blank" aria-label="LinkedIn">in</a>
+          <!-- <a href="#" aria-label="Twitter">𝕏</a> -->
+          <!-- <a href="#" aria-label="Instagram">◎</a> -->
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul><li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#services">Services</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul><li><a href="#team">Team</a></li><li><a href="#contact">Contact</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul><li><a href="mailto:hratpoliticallighthouse@gmail.com">hratpoliticallighthouse@gmail.com</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 Political Lighthouse. All Rights Reserved.</div>
+      <div>Created by Poonilavu Lakshmanakumar R K</div>
+      <!-- <button class="admin-link" onclick="document.getElementById('careers').scrollIntoView({behavior:'smooth'}); document.getElementById('showLoginBtn').click();">Admin login</button> -->
+    </div>
+  </div>
+</footer>
+
+<script>
+  // ---------- mobile nav ----------
+  const menuToggle = document.getElementById('menuToggle');
+  const mobileNav = document.getElementById('mobileNav');
+  const desktopLinks = document.querySelectorAll('.navlinks')[0].innerHTML;
+  mobileNav.innerHTML = desktopLinks;
+  menuToggle.addEventListener('click', () => {
+    mobileNav.style.display = mobileNav.style.display === 'flex' ? 'none' : 'flex';
+  });
+  mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileNav.style.display='none'));
+
+  // ---------- lead form ----------
+  // document.getElementById('leadForm').addEventListener('submit', function(e){
+  //   e.preventDefault();
+  //   const btn = e.target.querySelector('.submit-btn');
+  //   const original = btn.textContent;
+  //   btn.textContent = 'Request sent ✓';
+  //   btn.style.background = '#FF0054';
+  //   setTimeout(()=>{ btn.textContent = original; btn.style.background=''; }, 2600);
+  //   e.target.reset();
+  // });
+
+
+
+const LEAD_INBOX = "hratpoliticallighthouse@gmail.com";
+document.getElementById('leadForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  const f = e.target;
+  const name = f.fname.value.trim();
+  const email = f.email.value.trim();
+  const office = f.office.value.trim();
+  const timeline = f.timeline.value.trim();
+  const service = f.service.value;
+  const message = f.message.value.trim();
+
+  const subject = `Strategy call request — ${name || 'New inquiry'}`;
+  const bodyLines = [
+    `Name: ${name}`,
+    `Email: ${email}`,
+    `Office / initiative sought: ${office || '—'}`,
+    `Election date: ${timeline || '—'}`,
+    `Primary interest: ${service}`,
+    ``,
+    `Message:`,
+    message || '—'
+  ];
+  const mailtoUrl = `mailto:${LEAD_INBOX}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyLines.join('\n'))}`;
+
+  window.location.href = mailtoUrl;
+
+  const btn = f.querySelector('.submit-btn');
+  const original = btn.textContent;
+  btn.textContent = 'Opening your email app…';
+  setTimeout(()=>{ btn.textContent = original; }, 3000);
+});
+
+
+  // ==========================================================
+  // CAREERS — admin can post/remove openings from this browser.
+  // Change ADMIN_PASSWORD below before publishing this file.
+  // This is a simple client-side gate for convenience, not real
+  // security. Postings are saved in this browser's local storage,
+  // so they persist per-device once hosted on a real server, but
+  // don't sync across different visitors. For a shared, securely
+  // managed careers list, this would need a small backend later.
+  // ==========================================================
+  const ADMIN_PASSWORD = "PoliticalLighthouse2026";
+  const STORAGE_KEY = "political_lighthouse_careers";
+
+  const defaultJobs = [
+    { id:"seed-1", title:"Field Organizer", location:"Madurai, Tamil Nadu", type:"Full-time", apply:"careers@politicallighthouse.com", desc:"Coordinate grassroots outreach, canvass planning, and voter contact for an active campaign." },
+    { id:"seed-2", title:"Digital Content Associate", location:"Remote", type:"Contract", apply:"careers@politicallighthouse.com", desc:"Produce social content and messaging assets for statewide digital campaigns." }
+  ];
+
+  function loadJobs(){
+    try{ const raw = localStorage.getItem(STORAGE_KEY); if(raw) return JSON.parse(raw); }catch(e){}
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(defaultJobs));
+    return defaultJobs;
+  }
+  function saveJobs(jobs){ localStorage.setItem(STORAGE_KEY, JSON.stringify(jobs)); }
+
+  let isAdmin = false;
+  let jobs = loadJobs();
+
+  function escapeHtml(str){ const d = document.createElement('div'); d.textContent = str; return d.innerHTML; }
+
+  function renderJobs(){
+    const list = document.getElementById('careerList');
+    const empty = document.getElementById('careerEmpty');
+    list.innerHTML = '';
+    if(jobs.length === 0){ empty.style.display = 'block'; return; }
+    empty.style.display = 'none';
+    jobs.forEach(job => {
+      const applyHref = job.apply.includes('@') ? ('mailto:' + job.apply) : job.apply;
+      const card = document.createElement('div');
+      card.className = 'job-card';
+      card.innerHTML = `
+        <div class="job-info">
+          <h3>${escapeHtml(job.title)}</h3>
+          <div class="job-meta"><span>${escapeHtml(job.location)}</span><span>${escapeHtml(job.type)}</span></div>
+          <div class="job-desc">${escapeHtml(job.desc)}</div>
+        </div>
+        <div class="job-actions">
+          <a class="apply" href="${applyHref}">Apply</a>
+          ${isAdmin ? `<button class="remove" data-id="${job.id}">Remove</button>` : ''}
+        </div>`;
+      list.appendChild(card);
+    });
+    if(isAdmin){
+      list.querySelectorAll('.remove').forEach(btn => {
+        btn.addEventListener('click', () => {
+          jobs = jobs.filter(j => j.id !== btn.dataset.id);
+          saveJobs(jobs);
+          renderJobs();
+        });
+      });
+    }
+  }
+  renderJobs();
+
+  const showLoginBtn = document.getElementById('showLoginBtn');
+  const loginBox = document.getElementById('loginBox');
+  const adminPanel = document.getElementById('adminPanel');
+  const loginSubmit = document.getElementById('loginSubmit');
+  const loginMsg = document.getElementById('loginMsg');
+  const logoutBtn = document.getElementById('logoutBtn');
+
+  showLoginBtn.addEventListener('click', () => {
+    if(isAdmin){ adminPanel.classList.toggle('open'); }
+    else{ loginBox.classList.toggle('open'); }
+  });
+  loginSubmit.addEventListener('click', () => {
+    const val = document.getElementById('adminPass').value;
+    if(val === ADMIN_PASSWORD){
+      isAdmin = true;
+      loginBox.classList.remove('open');
+      adminPanel.classList.add('open');
+      loginMsg.textContent = '';
+      document.getElementById('adminPass').value = '';
+      renderJobs();
+    } else { loginMsg.textContent = 'Incorrect password.'; }
+  });
+  logoutBtn.addEventListener('click', () => { isAdmin = false; adminPanel.classList.remove('open'); renderJobs(); });
+
+  document.getElementById('postJobBtn').addEventListener('click', () => {
+    const title = document.getElementById('jobTitle').value.trim();
+    const location = document.getElementById('jobLocation').value.trim();
+    const type = document.getElementById('jobType').value;
+    const apply = document.getElementById('jobApply').value.trim();
+    const desc = document.getElementById('jobDesc').value.trim();
+    if(!title || !location || !apply){ alert('Please fill in at least the title, location, and apply contact.'); return; }
+    jobs.push({ id:'job-' + Date.now(), title, location, type, apply, desc });
+    saveJobs(jobs);
+    renderJobs();
+    document.getElementById('jobTitle').value = '';
+    document.getElementById('jobLocation').value = '';
+    document.getElementById('jobApply').value = '';
+    document.getElementById('jobDesc').value = '';
+  });
+</script>
+
+</body>
+</html>
