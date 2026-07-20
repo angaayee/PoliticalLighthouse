@@ -290,7 +290,7 @@
     section{padding:70px 0;}
     .stat-card{border-bottom:1px solid var(--line);}
     .con{display: none;}
-    /* .hero-art{display: none;} */
+    .hero-art{display: none;}
     /* .blob-1{width: 210px;height: 220px;} */
   }
   @media (prefers-reduced-motion: reduce){
